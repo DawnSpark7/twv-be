@@ -37,7 +37,8 @@
       "type": "boolean"
     },
     "content": {
-      "type": "text"
+      "type": "blocks",
+      "required": true
     }
   }
 }
