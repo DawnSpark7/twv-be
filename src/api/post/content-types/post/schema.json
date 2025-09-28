@@ -29,9 +29,6 @@
     "tags": {
       "type": "json"
     },
-    "publishDate": {
-      "type": "datetime"
-    },
     "slug": {
       "type": "uid",
       "targetField": "title"
