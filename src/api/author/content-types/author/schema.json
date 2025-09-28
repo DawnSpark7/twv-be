@@ -11,15 +11,18 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "Name": {
       "type": "string"
     },
-    "Content": {
-      "type": "text"
+    "Email": {
+      "type": "email"
     },
-    "Image": {
+    "Bio": {
+      "type": "blocks"
+    },
+    "Avatar": {
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "allowedTypes": [
         "images",
         "files",
@@ -27,8 +30,8 @@
         "audios"
       ]
     },
-    "Author": {
-      "type": "string"
+    "Social": {
+      "type": "json"
     }
   }
 }
