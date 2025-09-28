@@ -16,9 +16,6 @@
       "required": true,
       "unique": true
     },
-    "content": {
-      "type": "blocks"
-    },
     "image": {
       "type": "media",
       "multiple": true,
@@ -41,6 +38,9 @@
     },
     "featured": {
       "type": "boolean"
+    },
+    "content": {
+      "type": "text"
     }
   }
 }
